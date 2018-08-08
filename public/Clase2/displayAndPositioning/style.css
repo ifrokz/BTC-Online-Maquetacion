@@ -1,0 +1,34 @@
+#relativeText { 
+    position: relative;
+    top: 15px;
+    left: 45px;
+    color: red;
+
+}
+
+#absoluteText {
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    color: blue;
+    background: gray;
+    z-index: -1;
+}
+
+footer {
+    position: fixed;
+    background: black;
+    color: white;
+    bottom: 0px;
+}
+
+section {
+    height: 500vh;
+}
+
+nav {
+    background: yellow;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: gray;
+    font-family: Arial;
+    font-size: 25px;
+    margin: 0;
+    padding: 50px;
+    color: white;
+    box-sizing: border-box;
+}
+
+body * {
+    /* border: 2px solid black; */
+    box-sizing: border-box !important;
+    background: tomato;
+}
+
+.container { 
+    /* Aparecen en la misma linea por el inline, pero solamente si cabe al completo por el block*/
+    display: inline-block; 
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    /*box-sizing: border-box; /* El valor del content ignora el margin y se adapta en altura a 50px - 4px de los bordes, -10px del padding = 36px*/
+    /* box-sizing: content-box; */ /* El valor de lcontent es el del height especificado, después se le suman los demás valores el tamaño de la caja */
+}
+
+.vacio { 
+    background: rebeccapurple;
+    display: inline-block;
+    height: 100px;
+    width: 50px;
+}

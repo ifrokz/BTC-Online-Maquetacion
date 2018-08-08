@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootcamp_Online</title>
+
+    <style>
+        #winning {
+            background-color: red;  /* Es mas especifico */
+            border: 1px solid black;
+        }
+
+        .better {
+            background-color: gray; 
+            border: none !important; /* Es important */
+            color: green;  /* Es mas especifico que "p" */
+        }
+
+        .worse {
+            background-color: blue;
+            border: 1px solid black;
+            color: aliceblue;
+        }
+
+        p {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border: 1px solid red !important; /* Pierde por especificidad */
+        }
+    </style>
+</head>
+<body>
+    <p class="better worse">This is a paragraph</p>
+    <p class="better" id="winning">One selector to role them all!</p>
+</body>
+</html>

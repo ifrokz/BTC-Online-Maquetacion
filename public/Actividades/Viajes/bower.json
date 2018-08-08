@@ -1,0 +1,17 @@
+{
+  "name": "viajes",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ivan Ruiz <ivan@geekshubs.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
