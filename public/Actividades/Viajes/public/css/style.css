@@ -1,0 +1,183 @@
+/* -- GENERAL -- */
+
+.justify-content-center{
+    margin: 0;
+}
+
+/* -- -- */
+.nav-container > a {
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.nav-container > a:hover {
+    text-decoration-line: none;
+}
+
+#portada {
+    /* position: relative; */
+    background-image: url("/img/portada.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+#portada_text {
+    margin-left: 35%;
+}
+
+#portada_button {
+    margin: 50px;
+    padding: 15px 20px;
+    font-style: italic;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+}
+
+#home-icon {
+    position: relative;
+    top: -50px;
+}
+
+#home-icon_text {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 200px;
+    color: black;
+}
+
+.social-icon {
+    width: 25px;
+}
+
+button {
+    background: yellow;
+    padding: 10px;
+    border: none;
+}
+
+section {
+    height: 100vh;
+}
+
+/* -- SECTION VIAJES --  */
+
+.box-viaje {
+    height: 35vh;
+    margin: 5.88vh 0;
+    background-size: cover;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.travel-box_title {
+    background: rgb(3, 3, 70);
+    color: white;
+    text-align: left;
+    padding: 10px 25px;
+    padding-right: 100px; 
+}
+
+.box-viaje > .img-viaje {
+    height: 85%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.city-name {
+    margin-top: 10px;
+    color: rgb(3, 3, 70);
+}
+
+.travel-box_price {
+    background: yellow;
+    position: absolute;
+    display: block;
+    height: 75px;
+    width: 100px;
+    top: 20px;
+    right: 20px;
+
+    font-size: 1.5em;
+    line-height: 75px;
+    text-align: center;
+}
+
+/* -- SECTION QUIENES SOMOS -- */
+
+#quienes-somos {
+    background-image: url('/img/travel_3.jpg');
+    background-size: cover;
+}
+
+.quienes-somos_container {
+    background: white;
+    margin: 12.25vh 0;
+    height: 75vh;
+}
+
+.quienes-somos_title {
+    margin: 30px;
+    color: rgb(3, 3, 70);
+    font-weight: bolder;
+    font-size: 2.25em;
+}
+
+.quienes-somos_title::after {
+    content: "";
+    width: 50%;
+    background: yellow;
+    height: 5px;
+    top: -20px;
+    left: -10px;
+    position: relative;
+    display: inline-block;
+}
+
+.quienes-somos_text {
+    color: rgb(3, 3, 70);
+    padding: 2.5vw;
+    font-weight: bold;
+    line-height: 2.0em;
+}
+
+.quienes-somos_button {
+    margin-left: -100px; 
+    text-align: center;
+    position: relative;
+    left: 50%;
+    background: rgb(3, 3, 70);
+    color: yellow;
+    font-weight: bolder;
+    width: 200px;
+}
+
+ /* -- CONTACTO -- */
+
+.contacto_localizacion {
+    object-fit: cover; 
+    max-height: 70vh;
+    max-width: 100%; 
+    vertical-align: middle;
+}
+
+.contacto_form {
+
+}
