@@ -18,12 +18,10 @@
                             <a href="/">
                                 <img src="/img/icons/iconoweb.png" width="200px" alt="Brand">
                     
-                                <span id="home-icon_text">
-                                    <strong>
-                                        <br>GeeksHubs</br>
-                                        Travels
-                                    </strong>
-                                </span>
+                                <strong id="home-icon_text">
+                                    <br>GeeksHubs</br>
+                                    Travels
+                                </strong>
                             </a>
                         </div>
                         <div class="col-6 container nav-container" >
@@ -48,7 +46,7 @@
                 <h2>Descubre lugares maravillosos!</h2>
             </div>
             <div class="row justify-content-center">
-                <button id="portada_button">ver destinos</button>
+                <button class="boton-amarillo boton_portada">ver destinos</button>
             </div>
         </header>
 
@@ -148,10 +146,58 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-6">
-                        <img class="contacto_localizacion" src="http://maps.googleapis.com/maps/api/staticmap?markers=icon:|39.4817298,-0.3558403&zoom=13&size=800x800&sensor=false" alt="localización">
+                        <iframe class="contacto_localizacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.450235040021!2d-0.35812868463229974!3d39.48174697948477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604898947abad3%3A0x5aae0e0b7fa0358a!2sGeeksHubs+Space+Valencia!5e0!3m2!1ses!2ses!4v1534243946730" frameborder="0" style="border:0" allowfullscreen></iframe>                    
                     </div>
                     <div class="col-6">
+                        E: ivan@geekshubsacademy.com
+                        <p>P: 683 95 83 95</p>
 
+                        <p >Llámanos o mándanos un email en cualquier momento, nos esforzamos en responder todas las solicitudes en un máximo de 24h en días laborales</p>
+
+                        <p id="horario">Abrimos de 8:30 a 16:00 de lunes a viernes.</p>
+                        
+                        <form id="contacto_form" action="javascript:void(0)">
+                            <div class="form-row justify-content-between">
+                                <input 
+                                    class="form-group col-5" 
+                                    type="text" 
+                                    name="name" 
+                                    placeholder="Name*"
+                                />
+                                <input 
+                                    class="form-group col-5" 
+                                    type="text" name="email" 
+                                    placeholder="Email*"
+                                />
+                            </div>
+                            <div class="form-row justify-content-between">
+                                <input 
+                                    class="form-group col-5"
+                                    type="tel" 
+                                    name="phone"
+                                    placeholder="Teléfono*"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    required 
+                                />
+                                <input 
+                                    class="form-group col-5" 
+                                    type="text" 
+                                    name="pais" 
+                                    placeholder="País*"
+                                />
+                            </div>
+                            <div class="form-row">
+                                <textarea 
+                                    class="form-group col-12" 
+                                    name="mensaje"
+                                    placeholder="Mensaje"
+                                    rows="6"
+                                    resize="none"
+                                ></textarea>
+                            </div>
+                            <span class="form-row  form-group col-12 letra-enana">* POR FAVOR RELLENA TODOS LOS CAMPOS CORRECTAMENTE</span>
+                            <button class="boton-amarillo" type="submit" >Enviar Mensaje</button>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,15 @@
 /* -- GENERAL -- */
-
+* {
+    color: rgb(3, 3, 70);
+}
 .justify-content-center{
     margin: 0;
+}
+
+.boton-amarillo {
+    font-style: italic;
+    font-size: 1.5em;
+    /* font-weight: bold; */
 }
 
 /* -- -- */
@@ -23,6 +31,10 @@
     color: white;
 }
 
+.boton_portada {
+    margin: 50px;
+    padding: 15px 20px;
+}
 h1 {
     font-size: 3.5rem;
 }
@@ -33,14 +45,7 @@ h2 {
 
 #portada_text {
     margin-left: 35%;
-}
-
-#portada_button {
-    margin: 50px;
-    padding: 15px 20px;
-    font-style: italic;
-    font-size: 1.5em;
-    /* font-weight: bold; */
+    color: white;
 }
 
 #home-icon {
@@ -171,13 +176,43 @@ section {
 
  /* -- CONTACTO -- */
 
+ #contacto {
+    height: 75vh;
+    padding: 10vh;
+ }
+
+ #horario::after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    background: teal;
+    height: 2.5px;
+    width: 1.5em;
+    top: 1em;
+    left: -310px;
+ }
+
 .contacto_localizacion {
-    object-fit: cover; 
-    max-height: 70vh;
-    max-width: 100%; 
-    vertical-align: middle;
+    width: 500px;
+    height: 500px;
 }
 
-.contacto_form {
+#contacto_form {
+    margin-top: 25px;
+}
 
+.form-group {
+    padding-left: 25px;
+}
+.form-group::placeholder {
+    color: rgb(3, 3, 70);
+    font-size: 0.75em;
+}
+
+.letra-enana{
+    font-size: 0.5em;
+}
+
+textarea[name="mensaje"]{
+    resize: none;
 }
