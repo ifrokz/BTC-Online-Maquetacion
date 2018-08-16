@@ -211,8 +211,11 @@ section {
 
 .letra-enana{
     font-size: 0.5em;
+    margin-top: -0.75vh;
+    margin-bottom: 0.75vh;
 }
 
 textarea[name="mensaje"]{
     resize: none;
 }
+
